@@ -4,12 +4,12 @@
 import json, os, html
 TARGET = "https://neurobober.com/digests/"
 VARIANTS = {"a": "A", "b": "B", "c": "C"}
-N = 30
+N = 999
 codes = {}
 for letter, camp in VARIANTS.items():
     for i in range(1, N + 1):
         code = f"{letter}{i}"
-        url = f"{TARGET}?mtm_source=tg_seller&mtm_medium=dm&mtm_campaign={camp}&mtm_content={code}"
+        url = f"{TARGET}?mtm_source=tg_seller&mtm_medium=dm&mtm_campaign={camp}&mtm_content={code}&mtm_kwd={code}"
         codes[code] = url
         os.makedirs(code, exist_ok=True)
         u = html.escape(url, quote=True)
