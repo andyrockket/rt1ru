@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Генератор коротких ссылок rt1.ru/<код>/ → neurobober.com/digests/ с UTM (владелец 5031, 14.10).
+"""Генератор коротких ссылок rt1.ru/<код>/ → neurobober.com/digests/ с метками Matomo mtm_* (utm_* сайт срезает редиректом, 14.10).
 Код = буква варианта (a/b/c = заход A/B/C) + номер 1..N. utm_content = код. Запуск: python3 gen-links.py"""
 import json, os, html
 TARGET = "https://neurobober.com/digests/"
@@ -9,7 +9,7 @@ codes = {}
 for letter, camp in VARIANTS.items():
     for i in range(1, N + 1):
         code = f"{letter}{i}"
-        url = f"{TARGET}?utm_source=tg_seller&utm_medium=dm&utm_campaign={camp}&utm_content={code}"
+        url = f"{TARGET}?mtm_source=tg_seller&mtm_medium=dm&mtm_campaign={camp}&mtm_content={code}"
         codes[code] = url
         os.makedirs(code, exist_ok=True)
         u = html.escape(url, quote=True)
