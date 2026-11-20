@@ -28,5 +28,12 @@
   "variant": "A",
   "target": "https://neurobober.com/digests/",
   "t": 1795198062
+ },
+ "a4": {
+  "account": "seller_04",
+  "variant": "A",
+  "flow": "dater",
+  "target": "https://neurobober.com/dater/",
+  "t": 1795198563
  }
 }
