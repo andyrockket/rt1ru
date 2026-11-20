@@ -49,5 +49,12 @@
   "flow": "dater",
   "target": "https://neurobober.com/dater/",
   "t": 1795198790
+ },
+ "c3": {
+  "account": "seller_01",
+  "variant": "C",
+  "flow": "hustler",
+  "target": "https://neurobober.com/hustler/",
+  "t": 1795199212
  }
 }
