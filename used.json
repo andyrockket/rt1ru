@@ -56,5 +56,12 @@
   "flow": "hustler",
   "target": "https://neurobober.com/hustler/",
   "t": 1795199212
+ },
+ "a6": {
+  "account": "seller_04",
+  "variant": "A",
+  "flow": "hustler",
+  "target": "https://neurobober.com/hustler/",
+  "t": 1795199447
  }
 }
