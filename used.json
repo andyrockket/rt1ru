@@ -22,5 +22,11 @@
   "variant": "C",
   "target": "https://neurobober.com/digests/",
   "t": 1795198005
+ },
+ "a3": {
+  "account": "seller_05",
+  "variant": "A",
+  "target": "https://neurobober.com/digests/",
+  "t": 1795198062
  }
 }
