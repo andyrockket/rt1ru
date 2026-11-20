@@ -35,5 +35,12 @@
   "flow": "dater",
   "target": "https://neurobober.com/dater/",
   "t": 1795198563
+ },
+ "c2": {
+  "account": "seller_01",
+  "variant": "C",
+  "flow": "dater",
+  "target": "https://neurobober.com/dater/",
+  "t": 1795198578
  }
 }
