@@ -16,5 +16,11 @@
   "variant": "A",
   "target": "https://neurobober.com/digests/?category=dating&mtm_source=tg_seller&mtm_medium=dm&mtm_campaign=A&mtm_content=a2&mtm_kwd=a2",
   "t": 1795197324
+ },
+ "c1": {
+  "account": "seller_03",
+  "variant": "C",
+  "target": "https://neurobober.com/digests/",
+  "t": 1795198005
  }
 }
