@@ -4,5 +4,11 @@
   "variant": "B",
   "target": "https://neurobober.com/digests/",
   "t": 1795197024
+ },
+ "a1": {
+  "account": "seller_02",
+  "variant": "A",
+  "target": "https://neurobober.com/digests/?category=dating",
+  "t": 1795197311
  }
 }
